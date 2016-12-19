@@ -25,10 +25,21 @@ bool Checkerboard::init()
 	background->setPosition(originPosition.x + visibleSize.width / 2 - 60, originPosition.y + visibleSize.height / 2);
 	this->addChild(background);
 
+
 	return true;
 }
 
 Checkerboard::Checkerboard()
 {
 	
+}
+
+void Checkerboard::initRedFaction()
+{
+	
+}
+
+void Checkerboard::initBlackFaction() 
+{
+
 }

@@ -27,8 +27,12 @@ public:
 
 	virtual void Move();
 
+	int mX;
+	int mY;
+
 protected:
 	Faction mFaction;
+	
 	
 };
 
